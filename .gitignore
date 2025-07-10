@@ -1,0 +1,40 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos temporales
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos de configuración local
+*.env
+.env.*
+
+# Archivos de Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Archivos de Jupyter (si los usas)
+.ipynb_checkpoints/
+
+# Salidas
+*.log
+*.csv
+*.sqlite
+*.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
